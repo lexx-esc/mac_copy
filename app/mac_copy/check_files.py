@@ -23,7 +23,8 @@ def check_source(source, destination, up_level=False, log_clear=False):
 def is_exclude(value):
     ex = ['.DocumentRevisions-V100'
           , '.DS_Store'
-          , '.Spotlight-V100']
+          , '.Spotlight-V100'
+          , 'fb2.Flibusta.Net']
     return value in ex
 
 
